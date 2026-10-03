@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Certificate Generator</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>AI Certificate Generator</h1>
+      <p class="subtitle">GenAI + Agentic AI Certificate Generation System</p>
+
+      <form id="certificateForm">
+        <label>Recipient Name</label>
+        <input name="recipient" required placeholder="Enter recipient name">
+
+        <label>Achievement</label>
+        <input name="achievement" required placeholder="e.g. First Prize in Hackathon">
+
+        <label>Event / Program</label>
+        <input name="event" required placeholder="Enter event name">
+
+        <label>Date</label>
+        <input type="date" name="date" required>
+
+        <button type="submit">Generate Certificate</button>
+      </form>
+
+      <div id="result"></div>
+    </section>
+  </main>
+  <script src="/static/script.js"></script>
+</body>
+</html>

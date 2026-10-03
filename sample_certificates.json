@@ -1,0 +1,16 @@
+[
+  {
+    "certificate_id": "CERT-DEMO001",
+    "recipient": "Demo Student",
+    "achievement": "First Prize in AI Hackathon",
+    "event": "University Innovation Challenge",
+    "date": "2026-10-03"
+  },
+  {
+    "certificate_id": "CERT-DEMO002",
+    "recipient": "Demo Participant",
+    "achievement": "Successful Participation",
+    "event": "Technical Workshop",
+    "date": "2026-10-03"
+  }
+]

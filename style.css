@@ -1,0 +1,53 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f5f9;
+  color: #172033;
+}
+.container {
+  max-width: 760px;
+  margin: 60px auto;
+  padding: 20px;
+}
+.card {
+  background: white;
+  padding: 36px;
+  border-radius: 16px;
+  box-shadow: 0 10px 35px rgba(0,0,0,.08);
+}
+h1 { margin-top: 0; }
+.subtitle { color: #64748b; margin-bottom: 30px; }
+label { display: block; margin: 16px 0 7px; font-weight: 600; }
+input {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 15px;
+}
+button, .download {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 13px 20px;
+  border: 0;
+  border-radius: 8px;
+  background: #172033;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+#result { margin-top: 20px; }
+.certificate {
+  max-width: 900px;
+  margin: 70px auto;
+  padding: 80px;
+  text-align: center;
+  background: white;
+  border: 8px solid #172033;
+  box-shadow: 0 15px 50px rgba(0,0,0,.12);
+}
+.certificate h1 { font-size: 42px; }
+.certificate h2 { font-size: 38px; margin: 30px 0; }
+.small { letter-spacing: 4px; }
+.id { color: #64748b; font-size: 13px; }

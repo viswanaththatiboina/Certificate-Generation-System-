@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ certificate.certificate_id }}</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="certificate">
+    <p class="small">CERTIFICATE OF</p>
+    <h1>ACHIEVEMENT</h1>
+    <p>This certificate is proudly presented to</p>
+    <h2>{{ certificate.recipient }}</h2>
+    <p>{{ certificate.message }}</p>
+    <p><strong>{{ certificate.event }}</strong> · {{ certificate.date }}</p>
+    <p class="id">Certificate ID: {{ certificate.certificate_id }}</p>
+    <a class="download" href="/certificate/{{ certificate.certificate_id }}/pdf">Download PDF</a>
+  </main>
+</body>
+</html>
